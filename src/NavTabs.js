@@ -3,9 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
 
-    const location = useLocation();
-  
-    return (
+  const location = useLocation();
+
+  return (
+    <div>
+      <h1>Dung Davidson</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -28,9 +30,10 @@ function NavTabs() {
             Contact
           </Link>
         </li>
-        
+
       </ul>
-    );
-  }
-  
-  export default NavTabs;
+    </div>
+  );
+}
+
+export default NavTabs;
