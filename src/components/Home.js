@@ -14,22 +14,26 @@ function Home() {
                     </div>
                     <div className={"row"}>
                         <div className={"col-md-12 para"}>
-                            <div className={"image-wrapper float-left"}><img src={orlando} width="300" height="250" alt={"Yoom"}/></div>
-                                <div className={"single-post-content-wrapper"}>
-                                    <p>My name is Dung Davidson (pronounced Yoom). I'm currently learning about web developing. I want to
-                                    have a
-                                    career change and I'm very passionate about coding, making websites and games. It's very interesting
-                                    and
-                                    exciting making my imagination come to life. I'm looking forward to actually working in the tech
-                  field.<br/>
+                            <div className={"image-wrapper float-left"}><img src={orlando} alt={"Yoom"} /></div>
+                            <div className={"single-post-content-wrapper"}>
+                                <p style={{ fontSize: 20 }}>My name is Dung Davidson (pronounced Yoom). I originally come from Vietnam. I'm a junior full stack web developer. I want to
+                                have a
+                                career change and I'm very passionate about coding, making websites and games. It's very interesting
+                                and
+                                exciting making my imagination come to life. I'm looking forward to actually working in the tech
+                  field.<br />
                                             I love travelling, food, watching television, nature especially flowers, spending time with my family.
                 </p>
-              </div>
-                                </div>
                             </div>
                         </div>
-                    </div>
-      </main>
+                    </div><hr/>
+                    <h4>Connect with me</h4>
+                    <a href={"https://github.com/DDavidson202020"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "black"}} class="fab fa-github"></i></a>
+                    
+                </div>
+                
+            </div>
+        </main>
     )
 }
 export default Home;
