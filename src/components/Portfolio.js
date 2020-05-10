@@ -1,0 +1,57 @@
+import React from "react";
+import "./images/Screenshot.png";
+import "./images/Screenshot1.png";
+import "./images/Screenshot2.png";
+import "./images/Screenshot3.png";
+import "./images/Screenshot33.png";
+import "./images/Screenshot34.png";
+function Portfolio() {
+    return (
+        <main>
+            <div className="col-md-8 box-2 containerDiv mx-auto">
+
+                <div class="row">
+                    <div class="col">
+                        <p>Portfolio</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href={"https://ddavidson202020.github.io/day_planner/"} target={"_blank"} rel="noopener noreferrer"><h3>Day Planner App</h3></a>
+                        <img src={require("./images/Screenshot.png")} width="400" height="400" alt={"application"} />
+                    </div>
+                    <div class="col-md-4">
+                        <a href={"https://ddavidson202020.github.io/Weather_Dashboard/"} target={"_blank"} rel="noopener noreferrer"><h3>Weather Dashboard App</h3></a>
+                        <img src={require("./images/Screenshot1.png")} width="400" height="400" alt={"application"} />
+                    </div>
+                    <div class="col-md-4">
+                        <a href={"https://ddavidson202020.github.io/Code_Quiz/"} target={"_blank"} rel="noopener noreferrer"><h3>Code Quiz App</h3></a>
+                        <img src={require("./images/Screenshot2.png")} width="400" height="400" alt={"application"} />
+
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <a href={"https://ddavidson202020.github.io/Password_Generator/"} target={"_blank"} rel="noopener noreferrer"><h3>Password Generator App</h3></a>
+                        <img src={require("./images/Screenshot3.png")} width="400" height="400" alt={"application"} />
+                    </div>
+                
+                
+                    <div class="col-md-4">
+                        <a href={"https://boiling-citadel-96847.herokuapp.com/"} target={"_blank"} rel="noopener noreferrer"><h3>Note Taker App</h3></a>
+                        <img src={require("./images/Screenshot33.png")} width="400" height="400" alt={"application"} />
+                    </div>
+                    <div class="col-md-4">
+                        <a href={"https://young-depths-27786.herokuapp.com/"} target={"_blank"} rel="noopener noreferrer"><h3>Burger App</h3></a>
+                        <img src={require("./images/Screenshot34.png")} width="400" height="400" alt={"application"} />
+                    </div>
+                
+                </div>
+            </div>
+                            
+      </main>
+    )
+
+}
+export default Portfolio;

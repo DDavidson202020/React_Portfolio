@@ -1,0 +1,82 @@
+/* from .collapse to a : style the navbar*/
+.collapse {
+    justify-content: flex-end;
+}
+
+.navContainer {
+    padding: 0;
+}
+.navbar-brand {
+    /*color:#ffffff;*/
+    padding: 30px 10px;
+    background-color:teal ;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size:25px;
+    
+}
+#name {  
+    color: wheat;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+.navbar {
+    min-height: 90px;
+
+    padding: 0;
+    background-color: gray;
+}
+a {
+    color: wheat ;
+    font-size:20px;
+}
+.box-2 {
+    padding: 30px 40px;
+}
+.about, .col p {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #cccccc;
+    color: teal;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+.para {
+    padding-left: 0;
+    padding-top: 20px;
+}
+img {
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 200px;
+    height: 150px;
+}
+main {
+    background-image: url("https://i.pinimg.com/originals/b5/ec/12/b5ec1245c257f5a8252c8d3a97b294f3.jpg");
+    height: 700px;
+    overflow: auto;
+}
+.containerDiv {
+    background-color: white;
+    margin-top:40px;
+    border: 1px solid #a09797;
+}
+footer {
+    background-color: #666666;
+    height: 100px;
+    border-top: 10px solid teal;
+    clear: both;
+}
+.middle {
+    padding-top: 30px;
+    color: white;
+}
+.success-msg {
+    color: rgb(117, 117, 214);
+    padding: 10px 15px;
+}
+.err-msg {
+    color:red;
+    padding: 10px 15px;
+}

@@ -6,9 +6,10 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <div>
-      <h1>Dung Davidson</h1>
-      <ul className="nav nav-tabs">
+    <div className="navbar navbar-expand-lg">
+      <h2 style={{marginLeft: 20}} id={"name"}>Dung Davidson</h2>
+      <ul className="nav navbar-brand collapse navbar navbar-collapse">
+      
         <li className="nav-item">
           <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
             Home
