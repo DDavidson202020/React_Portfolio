@@ -23,7 +23,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <main className={"main"}>
+            <main>
 
 
                 <div className={"container box-2 containerDiv mx-auto"}>

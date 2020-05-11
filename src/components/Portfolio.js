@@ -9,7 +9,7 @@ import "./images/Screenshot40.png";
 import "./images/Screenshot41.png";
 function Portfolio() {
     return (
-        <main className={"main"}>
+        <main>
             <div className="container box-2 containerDiv mx-auto">
 
                 <div class="row">
