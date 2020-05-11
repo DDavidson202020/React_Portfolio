@@ -5,7 +5,7 @@ import "./images/orlando.jpg";
 const orlando = require("./images/orlando.jpg");
 function Home() {
     return (
-        <main>
+        <main className={"main"}>
 
             <div className={"container"}>
                 <div className={"box-2 containerDiv mx-auto"}>
