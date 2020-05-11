@@ -28,9 +28,9 @@ function Home() {
                         </div>
                     </div><hr/>
                     <h4>Connect with me</h4>
-                    <a href={"https://github.com/DDavidson202020"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "black"}} class="fab fa-github"></i></a>
+                    <a href={"https://github.com/DDavidson202020"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "black"}} className="fab fa-github"></i></a>
                     <span> </span>
-                    <a href={"https://linkedin.com/in/dung-davidson-1102401a2"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "#2867B2"}} class="fab fa-linkedin"></i></a>
+                    <a href={"https://linkedin.com/in/dung-davidson-1102401a2"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "#2867B2"}} className="fab fa-linkedin"></i></a>
                 
                 </div>
                 
