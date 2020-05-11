@@ -26,7 +26,7 @@ class Contact extends React.Component {
             <main>
 
 
-                <div className={"col-md-8 box-2 containerDiv mx-auto"}>
+                <div className={"container box-2 containerDiv mx-auto"}>
                     <div className={"row"}>
                         <div className={"col"}>
                             <p>Contact</p>
