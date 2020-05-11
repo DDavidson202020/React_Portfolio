@@ -14,7 +14,7 @@ function Home() {
                     </div>
                     <div className={"row"}>
                         <div className={"col-md-12 para"}>
-                            <div className={"image-wrapper float-left"}><img src={orlando} alt={"Yoom"} /></div>
+                            <div className={"image-wrapper float-left"}><img src={orlando} alt={"Yoom"} className={"avatar"} /></div>
                             <div className={"single-post-content-wrapper"}>
                                 <p style={{ fontSize: 20 }}>My name is Dung Davidson (pronounced Yoom). I originally come from Vietnam. I'm a junior full stack web developer. I want to
                                 have a
@@ -29,7 +29,9 @@ function Home() {
                     </div><hr/>
                     <h4>Connect with me</h4>
                     <a href={"https://github.com/DDavidson202020"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "black"}} class="fab fa-github"></i></a>
-                    
+                    <span> </span>
+                    <a href={"https://linkedin.com/in/dung-davidson-1102401a2"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "#2867B2"}} class="fab fa-linkedin"></i></a>
+                
                 </div>
                 
             </div>
