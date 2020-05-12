@@ -8,11 +8,10 @@ import Footer from "./components/Footer";
 import "./style.css"
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <NavTabs />
         <Route exact path="/" component={Home} />
-        <Route exact path="/React_Portfolio" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Footer />
