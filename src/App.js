@@ -5,13 +5,14 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import "./style.css"
 function App() {
   return (
     <Router>
       <div>
         <NavTabs />
         <Route exact path="/" component={Home} />
+        <Route exact path="/React_Portfolio" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Footer />

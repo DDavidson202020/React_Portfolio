@@ -1,5 +1,5 @@
 import React from "react";
-import "./images/Screenshot.png";
+import screenshot from "./images/Screenshot.png";
 import "./images/Screenshot1.png";
 import "./images/Screenshot2.png";
 import "./images/Screenshot3.png";
@@ -19,19 +19,19 @@ function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                    <a href={"https://ddavidson202020.github.io/day_planner/"} target={"_blank"} rel="noopener noreferrer"><h3>Day Planner App</h3></a>
-                        <img src={require("./images/Screenshot.png")} width="250" height="250" alt={"application"} />
+                    <a href={"https://ddavidson202020.github.io/day_planner/"} target="_blank" rel="noopener noreferrer"><h3>Day Planner App</h3></a>
+                        <img src={screenshot} width="250" height="250" alt="application" />
                         
                     </div>
                     
                     <div className="col-md-4">
-                        <a href={"https://ddavidson202020.github.io/Weather_Dashboard/"} target={"_blank"} rel="noopener noreferrer"><h3>Weather Dashboard App</h3></a>
-                        <img src={require("./images/Screenshot1.png")} width="250" height="250" alt={"application"} />
+                        <a href={"https://ddavidson202020.github.io/Weather_Dashboard/"} target="_blank" rel="noopener noreferrer"><h3>Weather Dashboard App</h3></a>
+                        <img src={require("./images/Screenshot1.png")} width="250" height="250" alt="application" />
                     </div>
                     
                     <div className="col-md-4">
-                        <a href={"https://ddavidson202020.github.io/Code_Quiz/"} target={"_blank"} rel="noopener noreferrer"><h3>Code Quiz App</h3></a>
-                        <img src={require("./images/Screenshot2.png")} width="250" height="250" alt={"application"} />
+                        <a href={"https://ddavidson202020.github.io/Code_Quiz/"} target="_blank" rel="noopener noreferrer"><h3>Code Quiz App</h3></a>
+                        <img src={require("./images/Screenshot2.png")} width="250" height="250" alt="application" />
 
                     </div>
                 

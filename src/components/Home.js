@@ -7,15 +7,15 @@ function Home() {
     return (
         <main>
 
-            <div className={"container"}>
-                <div className={"box-2 containerDiv mx-auto"}>
-                    <div className={"row"}>
-                        <div className={"col-md-12 about"}>About Me</div>
+            <div className="container">
+                <div className="box-2 containerDiv mx-auto">
+                    <div className="row">
+                        <div className="col-md-12 about">About Me</div>
                     </div>
-                    <div className={"row"}>
-                        <div className={"col-md-12 para"}>
-                            <div className={"image-wrapper float-left"}><img src={orlando} alt={"Yoom"} className={"avatar"} /></div>
-                            <div className={"single-post-content-wrapper"}>
+                    <div className="row">
+                        <div className="col-md-12 para">
+                            <div className="image-wrapper float-left"><img src={orlando} alt="Yoom" className="avatar" /></div>
+                            <div className="single-post-content-wrapper">
                                 <p style={{ fontSize: 20 }}>My name is Dung Davidson (pronounced Yoom). I originally come from Vietnam. I'm a junior full stack web developer. I want to
                                 have a
                                 career change and I'm very passionate about coding, making websites and games. It's very interesting
