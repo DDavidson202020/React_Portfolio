@@ -19,14 +19,12 @@ function Portfolio() {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        {/* <a href={"https://ddavidson202020.github.io/day_planner/"} target="_blank" rel="noopener noreferrer"><h3>Day Planner App</h3></a>
-                        <img src={screenshot} width="250" height="250" alt="application" /> */}
                         <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Day Planner</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Allow user to save events for each hour of the day. Run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -37,14 +35,12 @@ function Portfolio() {
                     </div>
 
                         <div className="col-md-4">
-                            {/* <a href={"https://ddavidson202020.github.io/Weather_Dashboard/"} target="_blank" rel="noopener noreferrer"><h3>Weather Dashboard App</h3></a>
-                            <img src={require("./images/Screenshot1.png")} width="250" height="250" alt="application" /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot1}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Weather Dashboard</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Use the OpenWeather API to retrieve weather data for cities. Use localStorage to store search history. Feature dynamically updated HTML and CSS.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -56,14 +52,12 @@ function Portfolio() {
                         </div>
 
                         <div className="col-md-4">
-                            {/* <a href={"https://ddavidson202020.github.io/Code_Quiz/"} target="_blank" rel="noopener noreferrer"><h3>Code Quiz App</h3></a>
-                            <img src={require("./images/Screenshot2.png")} width="250" height="250" alt="application" /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot2}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Code Quiz</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Use javascript to change HTML elements and CSS dynamically. Use local storage to save the name and score from the last time user played.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -80,14 +74,12 @@ function Portfolio() {
                     <div className="row">
 
                         <div className="col-md-4">
-                            {/* <a href={"https://ddavidson202020.github.io/Password_Generator/"} target={"_blank"} rel="noopener noreferrer"><h3>Password Generator App</h3></a>
-                            <img src={require("./images/Screenshot3.png")} width="250" height="250" alt={"application"} /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot3}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Password Generator</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">A responsive application that can generate a secure password following some certain criteria from user's input.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -100,14 +92,12 @@ function Portfolio() {
 
 
                         <div className="col-md-4">
-                            {/* <a href={"https://boiling-citadel-96847.herokuapp.com/"} target={"_blank"} rel="noopener noreferrer"><h3>Note Taker App</h3></a>
-                            <img src={require("./images/Screenshot33.png")} width="250" height="250" alt={"application"} /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot33}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Note Taker</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Can be used to write, save, and delete notes. It uses an express backend, save and retrieve note data from a JSON file.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -119,14 +109,12 @@ function Portfolio() {
                         </div>
 
                         <div className="col-md-4">
-                            {/* <a href={"https://young-depths-27786.herokuapp.com/"} target={"_blank"} rel="noopener noreferrer"><h3>Burger App</h3></a>
-                            <img src={require("./images/Screenshot34.png")} width="250" height="250" alt={"application"} /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot34}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Burger Logger</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Let user input names of burgers, submit it, then click on Devour to move it to eaten section. Everything's saved in database.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -141,14 +129,12 @@ function Portfolio() {
                     <hr />
                     <div className="row">
                         <div className="col-md-4">
-                            {/* <a href={"https://cryptic-mountain-58579.herokuapp.com/"} target={"_blank"} rel="noopener noreferrer"><h3>Budget App</h3></a>
-                            <img src={require("./images/Screenshot40.png")} width="250" height="250" alt={"application"} /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot40}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Budget Tracker</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Allow user to add expenses and deposits to their budget with or without an internet connection. Store database when offline in INDEXEDDB, update database when brought back online.</p>
                                 </div>
                                 
                                 <div className="card-body">
@@ -160,14 +146,12 @@ function Portfolio() {
                         </div>
 
                         <div className="col-md-4">
-                            {/* <a href={"https://ddavidson202020.github.io/Employee_Directory/"} target={"_blank"} rel="noopener noreferrer"><h3>Employee Directory App</h3></a>
-                            <img src={require("./images/Screenshot41.png")} width="250" height="250" alt={"application"} /> */}
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
                             <img src={screenshot41}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Employee Directory</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p className="card-text">Was built using React.js. Respond to user events like filtering out employees by first name, sorting by employees first, last name or by age. Data is pulled from the Random User API.</p>
                                 </div>
                                 
                                 <div className="card-body">
