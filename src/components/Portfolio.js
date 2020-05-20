@@ -20,7 +20,7 @@ function Portfolio() {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Day Planner</h5>
@@ -36,7 +36,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot1}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot1} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Weather Dashboard</h5>
@@ -53,7 +53,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot2}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot2} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Code Quiz</h5>
@@ -75,7 +75,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot3}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot3} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Password Generator</h5>
@@ -93,7 +93,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot33}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot33} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Note Taker</h5>
@@ -110,7 +110,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot34}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot34} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Burger Logger</h5>
@@ -130,7 +130,7 @@ function Portfolio() {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot40}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot40} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Budget Tracker</h5>
@@ -147,7 +147,7 @@ function Portfolio() {
 
                         <div className="col-md-4">
                             <div className="card" style={{width: "18rem", border: "2px solid teal", borderRadius: "15px"}}>
-                            <img src={screenshot41}  width="200" height="200" className="card-img-top" alt="application" />
+                            <img src={screenshot41} style={{borderRadius: "15px 15px 0 0"}}  width="200" height="200" className="card-img-top" alt="application" />
                         
                                 <div className="card-body">
                                     <h5 className="card-title">Employee Directory</h5>
