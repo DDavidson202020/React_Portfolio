@@ -16,21 +16,15 @@ function Home() {
                         <div className="col-md-12 para">
                             <div className="image-wrapper float-left"><img src={orlando} alt="Yoom" className="avatar" /></div>
                             <div className="single-post-content-wrapper">
-                                <p style={{ fontSize: 20 }}>My name is Dung Davidson (pronounced Yoom). I originally come from Vietnam. I'm a junior full stack web developer. I want to
-                                have a
-                                career change and I'm very passionate about coding, making websites and games. It's very interesting
-                                and
-                                exciting making my imagination come to life. I'm looking forward to actually working in the tech
-                  field.<br />
-                                            I love travelling, food, watching television, nature especially flowers, spending time with my family.
+                                <p style={{ fontSize: "20px"}}>My name is Dung Davidson (pronounced Yoom). I originally come from Vietnam. Junior Full Stack Web Developer and graduate of the University
+                                of Central Florida Coding Boot Camp with skills in HTML5, CSS3, Bootstrap, JavaScript, MongoDB, Node.js, Express.js, React.js.
+                                I am passionate about coding, and find it exciting and rewarding making my imagination come to life as a developer.
+                                I hope to focus on creating intuitive user interfaces and collaborating with others to create meaningful web applications that improve the lives of users.<br/>
+                                I love coding, spending time with my family, travelling, watching movies, food and nature especially flowers.
                 </p>
                             </div>
                         </div>
-                    </div><hr/>
-                    <h4>Connect with me</h4>
-                    <a href={"https://github.com/DDavidson202020"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "black"}} className="fab fa-github"></i></a>
-                    <span> </span>
-                    <a href={"https://linkedin.com/in/dung-davidson-1102401a2"} target={"_blank"} rel="noopener noreferrer"><i style={{fontSize: 25, color: "#2867B2"}} className="fab fa-linkedin"></i></a>
+                    </div>
                 
                 </div>
                 

@@ -29,32 +29,15 @@ class Contact extends React.Component {
                 <div className="container box-2 containerDiv mx-auto">
                     <div className="row">
                         <div className="col">
-                            <p>Contact</p>
+                            <p style={{textAlign: "center"}}>Contact</p>
                         </div>
                     </div>
-                    <form onSubmit={this.handleSubmit}>
-                        <div className="row">
-
-                            <div className="col-md-12">
-                                <div className="form-group">
-                                    <label htmlFor="usr">Name</label>
-                                    <input value={this.state.name} name="name" type="text" className="form-control" onChange={this.handleChange} />
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="pwd">Email</label>
-                                    <input value={this.state.email} name="email" type="email" className="form-control"  onChange={this.handleChange} />
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="comment">Message</label>
-                                    <textarea value={this.state.meaage} name="message" className="form-control" rows="5" onChange={this.handleChange}></textarea>
-                                </div>
-                                <button disabled={this.state.disabled} className="btn btn-info" type="submit">Submit</button>
-                                {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                                {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
-                            </div>
-
-                        </div>
-                    </form>
+                    <p style={{textAlign: "center", fontSize: "22px"}}>Email: ddavidson202020@gmail.com</p>
+                    <h4 style={{textAlign: "center"}}>Connect with me</h4>
+                    <p style={{textAlign: "center", fontSize: "22px"}}>Github: <a href="https://github.com/DDavidson202020" target="_blank" rel="noopener noreferrer"><i style={{fontSize: "25px", color: "black"}} className="fab fa-github"></i></a></p>
+                    <p style={{textAlign: "center", fontSize: "22px"}}>LinkedIn: <a href="https://linkedin.com/in/dung-davidson-1102401a2" target="_blank" rel="noopener noreferrer"><i style={{fontSize: "25px", color: "#2867B2"}} className="fab fa-linkedin"></i></a></p>
+                    
+                    
                 </div>
             </main>
         )
