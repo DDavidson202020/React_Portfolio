@@ -20,7 +20,7 @@ class Contact extends React.Component {
             disabled: true
         })
     }
-
+    
     render() {
         return (
             <main>
